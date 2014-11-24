@@ -26,6 +26,7 @@
 		C93C721B1A2311D700EA3D6D /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C72131A2311D700EA3D6D /* UIViewAdditions.m */; };
 		C93C721C1A2311D700EA3D6D /* UtilityAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C72151A2311D700EA3D6D /* UtilityAdditions.m */; };
 		C93C721D1A2311D700EA3D6D /* UtilityFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C72171A2311D700EA3D6D /* UtilityFunction.m */; };
+		C93C721F1A2328E600EA3D6D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C93C721E1A2328E600EA3D6D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		C93C72161A2311D700EA3D6D /* UtilityFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityFunction.h; sourceTree = "<group>"; };
 		C93C72171A2311D700EA3D6D /* UtilityFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityFunction.m; sourceTree = "<group>"; };
 		C93C72181A2311D700EA3D6D /* UtilityMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMacro.h; sourceTree = "<group>"; };
+		C93C721E1A2328E600EA3D6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		C4247B8719B46F7D0003FDEE /* WQExtension */ = {
 			isa = PBXGroup;
 			children = (
+				C93C721E1A2328E600EA3D6D /* README.md */,
 				C4E9B4FF1A20390200E17289 /* Classes */,
 				C4247B9019B46F7D0003FDEE /* AppDelegate.h */,
 				C4247B9119B46F7D0003FDEE /* AppDelegate.m */,
@@ -300,6 +303,7 @@
 				C93C721B1A2311D700EA3D6D /* UIViewAdditions.m in Sources */,
 				C4247B9219B46F7D0003FDEE /* AppDelegate.m in Sources */,
 				C93C72191A2311D700EA3D6D /* NSDate+convenience.m in Sources */,
+				C93C721F1A2328E600EA3D6D /* README.md in Sources */,
 				C93C721D1A2311D700EA3D6D /* UtilityFunction.m in Sources */,
 				C4247B8E19B46F7D0003FDEE /* main.m in Sources */,
 			);
