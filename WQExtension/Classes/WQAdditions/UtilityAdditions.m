@@ -135,6 +135,20 @@
 @end
 
 
+#pragma mark NSString
+@implementation NSString (WQ)
+
+- (BOOL)isEmail
+{
+    NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
+    BOOL isValid = [emailTest evaluateWithObject:self];
+    return isValid;
+}
+
+@end
+
+
 #pragma mark NSArray
 @implementation NSArray (WQ)
 
@@ -174,3 +188,26 @@
 }
 
 @end
+
+
+#pragma mark
+@implementation NSUserDefaults (WQ)
+
+-(void)setObjectAndSync:(id)value forKey:(NSString *)defaultName
+{
+    if (!value || !defaultName)
+        return;
+    [self setObject:value forKey:defaultName];
+    [self synchronize];
+}
+
+-(void)removeObjectForKeyAndSync:(NSString *)defaultName
+{
+    if (!defaultName)
+        return;
+    [self removeObjectForKey:defaultName];
+    [self synchronize];
+}
+
+@end
+

@@ -14,5 +14,7 @@
 #import "NSDate+convenience.h"
 #import "UIImage+WQ.h"
 #import "UIViewAdditions.h"
+#import "NSString+Email.h"
+#import "NSString+size.h"
 
 #endif

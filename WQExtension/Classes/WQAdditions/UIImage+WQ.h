@@ -22,5 +22,9 @@
  *  将图片缩放到指定尺寸
  */
 -(UIImage*)scaleToSize:(CGSize)size;
+/**
+ *  将view的内容截屏到图片
+ */
++(UIImage*)captureImageFromView:(UIView*)view;
 
 @end

@@ -31,6 +31,13 @@
 @end
 
 
+@interface NSString (WQ)
+
+-(BOOL)isEmail;
+
+@end
+
+
 @interface NSArray (WQ)
 
 -(id)noNullValueAtIndex:(NSUInteger)index;
@@ -43,5 +50,13 @@
 -(id)noNullValueForKey:(id)key;
 -(NSString*)intStringForKey:(id)key;
 -(int)intForKey:(id)key;
+
+@end
+
+
+@interface NSUserDefaults (WQ)
+
+-(void)setObjectAndSync:(id)value forKey:(NSString *)defaultName;
+-(void)removeObjectForKeyAndSync:(NSString *)defaultName;
 
 @end
