@@ -29,8 +29,6 @@
 		C92A6D991B0489B600A41EFB /* NSString+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D8D1B0489B600A41EFB /* NSString+WQ.m */; };
 		C92A6D9A1B0489B600A41EFB /* NSURL+Param.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D901B0489B600A41EFB /* NSURL+Param.m */; };
 		C92A6D9B1B0489B600A41EFB /* UIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D911B0489B600A41EFB /* UIWindow+Hierarchy.m */; };
-		C92A6D9C1B0489B600A41EFB /* NSString+Email.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D931B0489B600A41EFB /* NSString+Email.m */; };
-		C92A6D9D1B0489B600A41EFB /* NSString+size.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D951B0489B600A41EFB /* NSString+size.m */; };
 		C93C72191A2311D700EA3D6D /* NSDate+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C720F1A2311D700EA3D6D /* NSDate+convenience.m */; };
 		C93C721A1A2311D700EA3D6D /* UIImage+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C72111A2311D700EA3D6D /* UIImage+WQ.m */; };
 		C93C721B1A2311D700EA3D6D /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C72131A2311D700EA3D6D /* UIViewAdditions.m */; };
@@ -85,10 +83,6 @@
 		C92A6D8F1B0489B600A41EFB /* NSURL+Param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Param.h"; sourceTree = "<group>"; };
 		C92A6D901B0489B600A41EFB /* NSURL+Param.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Param.m"; sourceTree = "<group>"; };
 		C92A6D911B0489B600A41EFB /* UIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Hierarchy.m"; sourceTree = "<group>"; };
-		C92A6D921B0489B600A41EFB /* NSString+Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Email.h"; sourceTree = "<group>"; };
-		C92A6D931B0489B600A41EFB /* NSString+Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Email.m"; sourceTree = "<group>"; };
-		C92A6D941B0489B600A41EFB /* NSString+size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+size.h"; sourceTree = "<group>"; };
-		C92A6D951B0489B600A41EFB /* NSString+size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+size.m"; sourceTree = "<group>"; };
 		C93C720D1A2311D700EA3D6D /* AdditionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionHeader.h; sourceTree = "<group>"; };
 		C93C720E1A2311D700EA3D6D /* NSDate+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+convenience.h"; sourceTree = "<group>"; };
 		C93C720F1A2311D700EA3D6D /* NSDate+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+convenience.m"; sourceTree = "<group>"; };
@@ -237,10 +231,6 @@
 				C92A6D8D1B0489B600A41EFB /* NSString+WQ.m */,
 				C92A6D8F1B0489B600A41EFB /* NSURL+Param.h */,
 				C92A6D901B0489B600A41EFB /* NSURL+Param.m */,
-				C92A6D921B0489B600A41EFB /* NSString+Email.h */,
-				C92A6D931B0489B600A41EFB /* NSString+Email.m */,
-				C92A6D941B0489B600A41EFB /* NSString+size.h */,
-				C92A6D951B0489B600A41EFB /* NSString+size.m */,
 				C93C720E1A2311D700EA3D6D /* NSDate+convenience.h */,
 				C93C720F1A2311D700EA3D6D /* NSDate+convenience.m */,
 				C92A6D8E1B0489B600A41EFB /* UIWindow+Hierarchy.h */,
@@ -359,7 +349,6 @@
 				C93C721A1A2311D700EA3D6D /* UIImage+WQ.m in Sources */,
 				C93C721C1A2311D700EA3D6D /* UtilityAdditions.m in Sources */,
 				C93C721B1A2311D700EA3D6D /* UIViewAdditions.m in Sources */,
-				C92A6D9D1B0489B600A41EFB /* NSString+size.m in Sources */,
 				C4247B9219B46F7D0003FDEE /* AppDelegate.m in Sources */,
 				C91434621ACD4A8000047FAF /* UITableView+WQ.m in Sources */,
 				C92A6D961B0489B600A41EFB /* NSArray+WQ.m in Sources */,
@@ -370,7 +359,6 @@
 				C92A6D9B1B0489B600A41EFB /* UIWindow+Hierarchy.m in Sources */,
 				C92A6D991B0489B600A41EFB /* NSString+WQ.m in Sources */,
 				C93C721F1A2328E600EA3D6D /* README.md in Sources */,
-				C92A6D9C1B0489B600A41EFB /* NSString+Email.m in Sources */,
 				C93C721D1A2311D700EA3D6D /* UtilityFunction.m in Sources */,
 				C92A6D981B0489B600A41EFB /* NSDictionary+WQ.m in Sources */,
 				C4247B8E19B46F7D0003FDEE /* main.m in Sources */,
