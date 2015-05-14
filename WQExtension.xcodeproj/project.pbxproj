@@ -21,6 +21,16 @@
 		C4247BA319B46F7D0003FDEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4247B8519B46F7D0003FDEE /* UIKit.framework */; };
 		C4247BAB19B46F7D0003FDEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4247BA919B46F7D0003FDEE /* InfoPlist.strings */; };
 		C4247BAD19B46F7D0003FDEE /* WQExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4247BAC19B46F7D0003FDEE /* WQExtensionTests.m */; };
+		C91434621ACD4A8000047FAF /* UITableView+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C914345E1ACD4A8000047FAF /* UITableView+WQ.m */; };
+		C91434631ACD4A8000047FAF /* UITableViewCell+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C91434601ACD4A8000047FAF /* UITableViewCell+WQ.m */; };
+		C92A6D961B0489B600A41EFB /* NSArray+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D871B0489B600A41EFB /* NSArray+WQ.m */; };
+		C92A6D971B0489B600A41EFB /* NSData+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D891B0489B600A41EFB /* NSData+WQ.m */; };
+		C92A6D981B0489B600A41EFB /* NSDictionary+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D8B1B0489B600A41EFB /* NSDictionary+WQ.m */; };
+		C92A6D991B0489B600A41EFB /* NSString+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D8D1B0489B600A41EFB /* NSString+WQ.m */; };
+		C92A6D9A1B0489B600A41EFB /* NSURL+Param.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D901B0489B600A41EFB /* NSURL+Param.m */; };
+		C92A6D9B1B0489B600A41EFB /* UIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D911B0489B600A41EFB /* UIWindow+Hierarchy.m */; };
+		C92A6D9C1B0489B600A41EFB /* NSString+Email.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D931B0489B600A41EFB /* NSString+Email.m */; };
+		C92A6D9D1B0489B600A41EFB /* NSString+size.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D951B0489B600A41EFB /* NSString+size.m */; };
 		C93C72191A2311D700EA3D6D /* NSDate+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C720F1A2311D700EA3D6D /* NSDate+convenience.m */; };
 		C93C721A1A2311D700EA3D6D /* UIImage+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C72111A2311D700EA3D6D /* UIImage+WQ.m */; };
 		C93C721B1A2311D700EA3D6D /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C72131A2311D700EA3D6D /* UIViewAdditions.m */; };
@@ -59,6 +69,26 @@
 		C4247BA819B46F7D0003FDEE /* WQExtensionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WQExtensionTests-Info.plist"; sourceTree = "<group>"; };
 		C4247BAA19B46F7D0003FDEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4247BAC19B46F7D0003FDEE /* WQExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQExtensionTests.m; sourceTree = "<group>"; };
+		C914345D1ACD4A8000047FAF /* UITableView+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+WQ.h"; sourceTree = "<group>"; };
+		C914345E1ACD4A8000047FAF /* UITableView+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WQ.m"; sourceTree = "<group>"; };
+		C914345F1ACD4A8000047FAF /* UITableViewCell+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WQ.h"; sourceTree = "<group>"; };
+		C91434601ACD4A8000047FAF /* UITableViewCell+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WQ.m"; sourceTree = "<group>"; };
+		C92A6D861B0489B600A41EFB /* NSArray+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WQ.h"; sourceTree = "<group>"; };
+		C92A6D871B0489B600A41EFB /* NSArray+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WQ.m"; sourceTree = "<group>"; };
+		C92A6D881B0489B600A41EFB /* NSData+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WQ.h"; sourceTree = "<group>"; };
+		C92A6D891B0489B600A41EFB /* NSData+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+WQ.m"; sourceTree = "<group>"; };
+		C92A6D8A1B0489B600A41EFB /* NSDictionary+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WQ.h"; sourceTree = "<group>"; };
+		C92A6D8B1B0489B600A41EFB /* NSDictionary+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WQ.m"; sourceTree = "<group>"; };
+		C92A6D8C1B0489B600A41EFB /* NSString+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WQ.h"; sourceTree = "<group>"; };
+		C92A6D8D1B0489B600A41EFB /* NSString+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WQ.m"; sourceTree = "<group>"; };
+		C92A6D8E1B0489B600A41EFB /* UIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		C92A6D8F1B0489B600A41EFB /* NSURL+Param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Param.h"; sourceTree = "<group>"; };
+		C92A6D901B0489B600A41EFB /* NSURL+Param.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Param.m"; sourceTree = "<group>"; };
+		C92A6D911B0489B600A41EFB /* UIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		C92A6D921B0489B600A41EFB /* NSString+Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Email.h"; sourceTree = "<group>"; };
+		C92A6D931B0489B600A41EFB /* NSString+Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Email.m"; sourceTree = "<group>"; };
+		C92A6D941B0489B600A41EFB /* NSString+size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+size.h"; sourceTree = "<group>"; };
+		C92A6D951B0489B600A41EFB /* NSString+size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+size.m"; sourceTree = "<group>"; };
 		C93C720D1A2311D700EA3D6D /* AdditionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionHeader.h; sourceTree = "<group>"; };
 		C93C720E1A2311D700EA3D6D /* NSDate+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+convenience.h"; sourceTree = "<group>"; };
 		C93C720F1A2311D700EA3D6D /* NSDate+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+convenience.m"; sourceTree = "<group>"; };
@@ -176,17 +206,45 @@
 		C4E9B4FF1A20390200E17289 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C914345A1ACD4A8000047FAF /* WQCategory */,
 				C93C720C1A2311D700EA3D6D /* WQAdditions */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		C914345A1ACD4A8000047FAF /* WQCategory */ = {
+			isa = PBXGroup;
+			children = (
+				C914345D1ACD4A8000047FAF /* UITableView+WQ.h */,
+				C914345E1ACD4A8000047FAF /* UITableView+WQ.m */,
+				C914345F1ACD4A8000047FAF /* UITableViewCell+WQ.h */,
+				C91434601ACD4A8000047FAF /* UITableViewCell+WQ.m */,
+			);
+			path = WQCategory;
 			sourceTree = "<group>";
 		};
 		C93C720C1A2311D700EA3D6D /* WQAdditions */ = {
 			isa = PBXGroup;
 			children = (
 				C93C720D1A2311D700EA3D6D /* AdditionHeader.h */,
+				C92A6D861B0489B600A41EFB /* NSArray+WQ.h */,
+				C92A6D871B0489B600A41EFB /* NSArray+WQ.m */,
+				C92A6D881B0489B600A41EFB /* NSData+WQ.h */,
+				C92A6D891B0489B600A41EFB /* NSData+WQ.m */,
+				C92A6D8A1B0489B600A41EFB /* NSDictionary+WQ.h */,
+				C92A6D8B1B0489B600A41EFB /* NSDictionary+WQ.m */,
+				C92A6D8C1B0489B600A41EFB /* NSString+WQ.h */,
+				C92A6D8D1B0489B600A41EFB /* NSString+WQ.m */,
+				C92A6D8F1B0489B600A41EFB /* NSURL+Param.h */,
+				C92A6D901B0489B600A41EFB /* NSURL+Param.m */,
+				C92A6D921B0489B600A41EFB /* NSString+Email.h */,
+				C92A6D931B0489B600A41EFB /* NSString+Email.m */,
+				C92A6D941B0489B600A41EFB /* NSString+size.h */,
+				C92A6D951B0489B600A41EFB /* NSString+size.m */,
 				C93C720E1A2311D700EA3D6D /* NSDate+convenience.h */,
 				C93C720F1A2311D700EA3D6D /* NSDate+convenience.m */,
+				C92A6D8E1B0489B600A41EFB /* UIWindow+Hierarchy.h */,
+				C92A6D911B0489B600A41EFB /* UIWindow+Hierarchy.m */,
 				C93C72101A2311D700EA3D6D /* UIImage+WQ.h */,
 				C93C72111A2311D700EA3D6D /* UIImage+WQ.m */,
 				C93C72121A2311D700EA3D6D /* UIViewAdditions.h */,
@@ -301,10 +359,20 @@
 				C93C721A1A2311D700EA3D6D /* UIImage+WQ.m in Sources */,
 				C93C721C1A2311D700EA3D6D /* UtilityAdditions.m in Sources */,
 				C93C721B1A2311D700EA3D6D /* UIViewAdditions.m in Sources */,
+				C92A6D9D1B0489B600A41EFB /* NSString+size.m in Sources */,
 				C4247B9219B46F7D0003FDEE /* AppDelegate.m in Sources */,
+				C91434621ACD4A8000047FAF /* UITableView+WQ.m in Sources */,
+				C92A6D961B0489B600A41EFB /* NSArray+WQ.m in Sources */,
+				C91434631ACD4A8000047FAF /* UITableViewCell+WQ.m in Sources */,
+				C92A6D9A1B0489B600A41EFB /* NSURL+Param.m in Sources */,
+				C92A6D971B0489B600A41EFB /* NSData+WQ.m in Sources */,
 				C93C72191A2311D700EA3D6D /* NSDate+convenience.m in Sources */,
+				C92A6D9B1B0489B600A41EFB /* UIWindow+Hierarchy.m in Sources */,
+				C92A6D991B0489B600A41EFB /* NSString+WQ.m in Sources */,
 				C93C721F1A2328E600EA3D6D /* README.md in Sources */,
+				C92A6D9C1B0489B600A41EFB /* NSString+Email.m in Sources */,
 				C93C721D1A2311D700EA3D6D /* UtilityFunction.m in Sources */,
+				C92A6D981B0489B600A41EFB /* NSDictionary+WQ.m in Sources */,
 				C4247B8E19B46F7D0003FDEE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

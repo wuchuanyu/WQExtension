@@ -64,7 +64,7 @@
 -(id)myObjectAtIndex:(NSUInteger)index
 {
     if ([self isArray])
-        return [(NSArray*)self noNullValueAtIndex:index];
+        return [(NSArray*)self objectAtIndex:index];
     return nil;
 }
 
@@ -111,7 +111,7 @@
 -(id)myObjectForKey:(id)aKey
 {
     if ([self isDictionary])
-        return [(NSDictionary*)self noNullValueForKey:aKey];
+        return [(NSDictionary*)self objectForKey:aKey];
     return nil;
 }
 
@@ -135,62 +135,8 @@
 @end
 
 
-#pragma mark NSString
-@implementation NSString (WQ)
 
-- (BOOL)isEmail
-{
-    NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
-    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
-    BOOL isValid = [emailTest evaluateWithObject:self];
-    return isValid;
-}
-
-@end
-
-
-#pragma mark NSArray
-@implementation NSArray (WQ)
-
--(id)noNullValueAtIndex:(NSUInteger)index
-{
-    if ([self count] <= index)
-        return nil;
-    id object = [self objectAtIndex:index];
-    if ([object isKindOfClass:[NSNull class]])
-        return nil;
-    return object;
-}
-
-@end
-
-
-#pragma mark NSDictionary
-@implementation NSDictionary (WQ)
-
--(id)noNullValueForKey:(id)key
-{
-    id object = [self objectForKey:key];
-    if ([object isKindOfClass:[NSNull class]])
-        return nil;
-    return object;
-}
-
--(NSString*)intStringForKey:(id)key
-{
-    NSString* str = [NSString stringWithFormat:@"%d", [[self objectForKey:key] intValue]];
-    return str;
-}
-
--(int)intForKey:(id)key
-{
-    return [[self objectForKey:key] intValue];
-}
-
-@end
-
-
-#pragma mark
+#pragma mark NSUserDefaults
 @implementation NSUserDefaults (WQ)
 
 -(void)setObjectAndSync:(id)value forKey:(NSString *)defaultName

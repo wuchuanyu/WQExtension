@@ -16,6 +16,8 @@
 #define iOS8Later (iOSVersion >= 8.0)
 #define isIPhone5 ([[UIScreen mainScreen] bounds].size.height == 1136)
 #define isBigIPhone ([[UIScreen mainScreen] bounds].size.height > 480)
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
 //app
 #define myAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleVersionKey]
 #define myAppBundleIdentifier [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleIdentifierKey]

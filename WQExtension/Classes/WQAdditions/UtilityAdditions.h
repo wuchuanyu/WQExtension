@@ -31,28 +31,6 @@
 @end
 
 
-@interface NSString (WQ)
-
--(BOOL)isEmail;
-
-@end
-
-
-@interface NSArray (WQ)
-
--(id)noNullValueAtIndex:(NSUInteger)index;
-
-@end
-
-
-@interface NSDictionary (WQ)
-
--(id)noNullValueForKey:(id)key;
--(NSString*)intStringForKey:(id)key;
--(int)intForKey:(id)key;
-
-@end
-
 
 @interface NSUserDefaults (WQ)
 
