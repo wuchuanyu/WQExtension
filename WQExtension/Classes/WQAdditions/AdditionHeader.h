@@ -17,6 +17,7 @@
 #import "NSURL+Param.h"
 #import "NSDictionary+WQ.h"
 #import "NSArray+WQ.h"
+#import "NSJSONSerialization+WQ.h"
 
 #import "UIWindow+Hierarchy.h"
 #import "UIViewAdditions.h"
