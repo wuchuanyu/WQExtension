@@ -25,6 +25,12 @@ NSDate的简便方法
 NSJSONSerialization+WQ    
 NSJSONSerialization封装，NSObject的jsonString
 
+ConstraintPack
+约束的一些实用方法
+
+UIView+WQConstraint
+UIView约束方面的扩展，如删除与该view关联的所有约束(包括从ib自动生成的约束)
+
 UIWindow+Hierarchy        
 最上层和当前UIViewController
 

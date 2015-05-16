@@ -12,7 +12,7 @@
  */
 extern NSString * const UAJSONSerializationErrorDomain;
 
-NS_ENUM(NSInteger, UAJSONSerializationErrorCode) {
+typedef NS_ENUM(NSInteger, UAJSONSerializationErrorCode) {
     UAJSONSerializationErrorCodeInvalidObject
 };
 
