@@ -16,4 +16,14 @@
     RemoveConstraints(self.constraintReferences);
 }
 
+-(void)removeExternalConstraints
+{
+    RemoveConstraints(self.externalConstraintReferences);
+}
+
+-(void)removeInternalConstraints
+{
+    RemoveConstraints(self.internalConstraintReferences);
+}
+
 @end

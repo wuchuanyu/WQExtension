@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSJSONSerialization+WQ.h"
 
 @interface WQExtensionTests : XCTestCase
 
@@ -28,7 +29,13 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSString* json1 = @"{\"name\":\"111\",\"name2\":null}";
+    NSString* json2 = @"[{\"name\":\"111\"},{\"name\":\"222\"}]";
+    NSDictionary* dict = [NSJSONSerialization objectWithString:json1];
+    NSArray* arr = [NSJSONSerialization objectWithString:json2];
+    NSLog(@"%@", dict);
+    NSLog(@"%@", arr);
+    XCTAssert(YES, @"Pass");
 }
 
 @end
