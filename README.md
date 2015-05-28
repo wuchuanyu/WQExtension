@@ -48,3 +48,6 @@ UtilityFunction
 
 UtilityMacro              
 一些常用的宏，如系统版本号、16进制色值等
+
+DeviceUID              
+app的UUID方案

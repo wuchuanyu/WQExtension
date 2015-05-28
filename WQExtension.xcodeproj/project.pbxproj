@@ -38,6 +38,7 @@
 		C93C721C1A2311D700EA3D6D /* UtilityAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C72151A2311D700EA3D6D /* UtilityAdditions.m */; };
 		C93C721D1A2311D700EA3D6D /* UtilityFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C72171A2311D700EA3D6D /* UtilityFunction.m */; };
 		C93C721F1A2328E600EA3D6D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C93C721E1A2328E600EA3D6D /* README.md */; };
+		C9E232011B16E41C0074A08C /* DeviceUID.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E232001B16E41C0074A08C /* DeviceUID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,8 @@
 		C93C72171A2311D700EA3D6D /* UtilityFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityFunction.m; sourceTree = "<group>"; };
 		C93C72181A2311D700EA3D6D /* UtilityMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMacro.h; sourceTree = "<group>"; };
 		C93C721E1A2328E600EA3D6D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		C9E231FF1B16E41C0074A08C /* DeviceUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUID.h; sourceTree = "<group>"; };
+		C9E232001B16E41C0074A08C /* DeviceUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +262,8 @@
 				C93C72161A2311D700EA3D6D /* UtilityFunction.h */,
 				C93C72171A2311D700EA3D6D /* UtilityFunction.m */,
 				C93C72181A2311D700EA3D6D /* UtilityMacro.h */,
+				C9E231FF1B16E41C0074A08C /* DeviceUID.h */,
+				C9E232001B16E41C0074A08C /* DeviceUID.m */,
 			);
 			path = WQAdditions;
 			sourceTree = "<group>";
@@ -368,6 +373,7 @@
 				C4247B9219B46F7D0003FDEE /* AppDelegate.m in Sources */,
 				C91434621ACD4A8000047FAF /* UITableView+WQ.m in Sources */,
 				C92A6D961B0489B600A41EFB /* NSArray+WQ.m in Sources */,
+				C9E232011B16E41C0074A08C /* DeviceUID.m in Sources */,
 				C91434631ACD4A8000047FAF /* UITableViewCell+WQ.m in Sources */,
 				C92A6D9A1B0489B600A41EFB /* NSURL+Param.m in Sources */,
 				C92A6D971B0489B600A41EFB /* NSData+WQ.m in Sources */,
