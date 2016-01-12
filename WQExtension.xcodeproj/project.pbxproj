@@ -25,6 +25,7 @@
 		C4B7C12A1B0713A700785422 /* UIView+WQConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7C1281B0713A700785422 /* UIView+WQConstraint.m */; };
 		C91434621ACD4A8000047FAF /* UITableView+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C914345E1ACD4A8000047FAF /* UITableView+WQ.m */; };
 		C91434631ACD4A8000047FAF /* UITableViewCell+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C91434601ACD4A8000047FAF /* UITableViewCell+WQ.m */; };
+		C924CCE11C4502350076AD89 /* WQGCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C924CCE01C4502350076AD89 /* WQGCDTimerManager.m */; };
 		C92A6D961B0489B600A41EFB /* NSArray+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D871B0489B600A41EFB /* NSArray+WQ.m */; };
 		C92A6D971B0489B600A41EFB /* NSData+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D891B0489B600A41EFB /* NSData+WQ.m */; };
 		C92A6D981B0489B600A41EFB /* NSDictionary+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D8B1B0489B600A41EFB /* NSDictionary+WQ.m */; };
@@ -79,6 +80,8 @@
 		C914345E1ACD4A8000047FAF /* UITableView+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WQ.m"; sourceTree = "<group>"; };
 		C914345F1ACD4A8000047FAF /* UITableViewCell+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WQ.h"; sourceTree = "<group>"; };
 		C91434601ACD4A8000047FAF /* UITableViewCell+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WQ.m"; sourceTree = "<group>"; };
+		C924CCDF1C4502350076AD89 /* WQGCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQGCDTimerManager.h; sourceTree = "<group>"; };
+		C924CCE01C4502350076AD89 /* WQGCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQGCDTimerManager.m; sourceTree = "<group>"; };
 		C92A6D861B0489B600A41EFB /* NSArray+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WQ.h"; sourceTree = "<group>"; };
 		C92A6D871B0489B600A41EFB /* NSArray+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WQ.m"; sourceTree = "<group>"; };
 		C92A6D881B0489B600A41EFB /* NSData+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WQ.h"; sourceTree = "<group>"; };
@@ -214,6 +217,7 @@
 			children = (
 				C914345A1ACD4A8000047FAF /* WQCategory */,
 				C93C720C1A2311D700EA3D6D /* WQAdditions */,
+				C924CCDE1C4501FE0076AD89 /* WQManager */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -228,6 +232,16 @@
 			);
 			path = WQCategory;
 			sourceTree = "<group>";
+		};
+		C924CCDE1C4501FE0076AD89 /* WQManager */ = {
+			isa = PBXGroup;
+			children = (
+				C924CCDF1C4502350076AD89 /* WQGCDTimerManager.h */,
+				C924CCE01C4502350076AD89 /* WQGCDTimerManager.m */,
+			);
+			name = WQManager;
+			path = WQExtension/Classes/WQManager;
+			sourceTree = SOURCE_ROOT;
 		};
 		C93C720C1A2311D700EA3D6D /* WQAdditions */ = {
 			isa = PBXGroup;
@@ -373,6 +387,7 @@
 				C4247B9219B46F7D0003FDEE /* AppDelegate.m in Sources */,
 				C91434621ACD4A8000047FAF /* UITableView+WQ.m in Sources */,
 				C92A6D961B0489B600A41EFB /* NSArray+WQ.m in Sources */,
+				C924CCE11C4502350076AD89 /* WQGCDTimerManager.m in Sources */,
 				C9E232011B16E41C0074A08C /* DeviceUID.m in Sources */,
 				C91434631ACD4A8000047FAF /* UITableViewCell+WQ.m in Sources */,
 				C92A6D9A1B0489B600A41EFB /* NSURL+Param.m in Sources */,
