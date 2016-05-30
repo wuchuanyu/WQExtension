@@ -25,6 +25,7 @@
 		C4B7C12A1B0713A700785422 /* UIView+WQConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7C1281B0713A700785422 /* UIView+WQConstraint.m */; };
 		C91434621ACD4A8000047FAF /* UITableView+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C914345E1ACD4A8000047FAF /* UITableView+WQ.m */; };
 		C91434631ACD4A8000047FAF /* UITableViewCell+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C91434601ACD4A8000047FAF /* UITableViewCell+WQ.m */; };
+		C91A8A341CFC3DE6004A776B /* Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A8A331CFC3DE6004A776B /* Additions.swift */; };
 		C924CCE11C4502350076AD89 /* WQGCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C924CCE01C4502350076AD89 /* WQGCDTimerManager.m */; };
 		C92A6D961B0489B600A41EFB /* NSArray+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D871B0489B600A41EFB /* NSArray+WQ.m */; };
 		C92A6D971B0489B600A41EFB /* NSData+WQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A6D891B0489B600A41EFB /* NSData+WQ.m */; };
@@ -80,6 +81,8 @@
 		C914345E1ACD4A8000047FAF /* UITableView+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WQ.m"; sourceTree = "<group>"; };
 		C914345F1ACD4A8000047FAF /* UITableViewCell+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WQ.h"; sourceTree = "<group>"; };
 		C91434601ACD4A8000047FAF /* UITableViewCell+WQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WQ.m"; sourceTree = "<group>"; };
+		C91A8A331CFC3DE6004A776B /* Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Additions.swift; sourceTree = "<group>"; };
+		C91A8A351CFC3E4A004A776B /* WQExtension-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WQExtension-Bridging-Header.h"; path = "WQExtension/WQExtension-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		C924CCDF1C4502350076AD89 /* WQGCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQGCDTimerManager.h; sourceTree = "<group>"; };
 		C924CCE01C4502350076AD89 /* WQGCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQGCDTimerManager.m; sourceTree = "<group>"; };
 		C92A6D861B0489B600A41EFB /* NSArray+WQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WQ.h"; sourceTree = "<group>"; };
@@ -177,6 +180,7 @@
 				C4247B9319B46F7D0003FDEE /* Main.storyboard */,
 				C4247B9619B46F7D0003FDEE /* ViewController.h */,
 				C4247B9719B46F7D0003FDEE /* ViewController.m */,
+				C91A8A351CFC3E4A004A776B /* WQExtension-Bridging-Header.h */,
 				C4247B9919B46F7D0003FDEE /* Images.xcassets */,
 				C4247B8819B46F7D0003FDEE /* Supporting Files */,
 			);
@@ -215,6 +219,7 @@
 		C4E9B4FF1A20390200E17289 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C91A8A311CFC3C95004A776B /* Swift */,
 				C914345A1ACD4A8000047FAF /* WQCategory */,
 				C93C720C1A2311D700EA3D6D /* WQAdditions */,
 				C924CCDE1C4501FE0076AD89 /* WQManager */,
@@ -231,6 +236,14 @@
 				C91434601ACD4A8000047FAF /* UITableViewCell+WQ.m */,
 			);
 			path = WQCategory;
+			sourceTree = "<group>";
+		};
+		C91A8A311CFC3C95004A776B /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C91A8A331CFC3DE6004A776B /* Additions.swift */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 		C924CCDE1C4501FE0076AD89 /* WQManager */ = {
@@ -326,6 +339,7 @@
 		C4247B7619B46F7D0003FDEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = wuchuanyu;
 				TargetAttributes = {
@@ -392,6 +406,7 @@
 				C91434631ACD4A8000047FAF /* UITableViewCell+WQ.m in Sources */,
 				C92A6D9A1B0489B600A41EFB /* NSURL+Param.m in Sources */,
 				C92A6D971B0489B600A41EFB /* NSData+WQ.m in Sources */,
+				C91A8A341CFC3DE6004A776B /* Additions.swift in Sources */,
 				C93C72191A2311D700EA3D6D /* NSDate+convenience.m in Sources */,
 				C92A6D9B1B0489B600A41EFB /* UIWindow+Hierarchy.m in Sources */,
 				C92A6D991B0489B600A41EFB /* NSString+WQ.m in Sources */,
@@ -525,10 +540,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WQExtension/WQExtension-Prefix.pch";
 				INFOPLIST_FILE = "WQExtension/WQExtension-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WQExtension/WQExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -538,10 +557,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WQExtension/WQExtension-Prefix.pch";
 				INFOPLIST_FILE = "WQExtension/WQExtension-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WQExtension/WQExtension-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
