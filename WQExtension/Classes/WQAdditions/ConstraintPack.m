@@ -561,7 +561,7 @@ void SetResistancePriority(View *view, NSUInteger priority)
 #pragma mark - Integration
 
 #if TARGET_OS_IPHONE
-void LayoutThenCleanup(View *view, void(^layoutBlock)())
+void LayoutThenCleanup(View *view, void(^layoutBlock)(void))
 {
     if (layoutBlock) layoutBlock();
     [view layoutIfNeeded];
@@ -603,7 +603,7 @@ void PlaceViewInSuperview(View *view, NSString *position, CGFloat inseth, CGFloa
     
     NSString *verticalPosition = [position substringToIndex:1];
     NSString *horizontalPosition = [position substringFromIndex:1];
-    void (^block)();
+    void (^block)(void);
     
     NSDictionary *actionDictionary =
     @{

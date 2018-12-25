@@ -9,5 +9,5 @@
 import Foundation
 import UIKit
 
-let gScreenWidth = UIScreen.mainScreen().bounds.size.width
-let gScreenHeight = UIScreen.mainScreen().bounds.size.height
+let gScreenWidth = UIScreen.main.bounds.size.width
+let gScreenHeight = UIScreen.main.bounds.size.height

@@ -128,7 +128,7 @@ void SetResistancePriority(View *view, NSUInteger priority);
  LIVING IN A NON-CONSTRAINT WORLD
  */
 #if TARGET_OS_IPHONE
-void LayoutThenCleanup(View *view, void(^layoutBlock)());
+void LayoutThenCleanup(View *view, void(^layoutBlock)(void));
 #endif
 
 /*
